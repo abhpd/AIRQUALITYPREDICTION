@@ -1,1 +1,0 @@
-# AIRQUALITYPREDICTION-Flask Project
