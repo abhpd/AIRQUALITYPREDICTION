@@ -28,7 +28,7 @@ def predict():
     elif(model == 'knn_prediction'):
         prediction = knn_model.predict(final_features)
     elif(model == 'ann_prediction'):
-        prediction = knn_model.predict(final_features)
+        prediction = ann_model.predict(final_features)
     else:
         prediction = 'Something went Wrong!'
     return render_template('index.html', prediction=prediction[0], predicted=True)
